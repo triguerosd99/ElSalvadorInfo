@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Milestones — El Salvador</title>
+        <link rel="stylesheet" href="../../CSS/main.css" />
+        <link rel="stylesheet" href="../../CSS/history.css" />
+        <link rel="icon" type="image/png" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="apple-touch-icon" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar__logo">
+            <a href="../ES/milestones.html" aria-current="false">
+                <img src="../../IMG/Iconos/el-salvador.png" alt="Español" />
+            </a>
+            <a href="history.html" aria-current="true">
+                <img src="../../IMG/Iconos/reino-unido.png" alt="English" />
+            </a>
+            </div>
+
+            <button type="button" class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+            </button>
+
+            <ul class="navbar__links" id="navLinks">
+            <li><a href="../../index.html" class="navbar__link">Home</a></li>
+            <li><a href="history.html" class="navbar__link">History</a></li>
+            <li><a href="geography.html" class="navbar__link">Geography</a></li>
+            <li><a href="social.html" class="navbar__link">Social</a></li>
+            <li><a href="information.html" class="navbar__link">Information</a></li>
+            <li><a href="milestones.html" class="navbar__link" aria-current="page">Milestones</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="page-hero">
+                <div class="page-hero__bg" style="background-image: url('../../IMG/Milestones/banner.jpeg');"></div>
+                <div class="page-hero__overlay"></div>
+                <div class="page-hero__content">
+                    <h1 class="page-hero__title">Importan Milestones of El Salvador</h1>
+                    <p class="page-hero__subtitle">A journey through key and defining achievements in our nation's story.</p>
+                </div>
+            </section>
+
+            <section class="timeline-section">
+                <div class="timeline-header">
+                    <h2 class="card__heading">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <line x1="12" y1="11" x2="12" y2="16.5" />
+                            <circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none" />
+                        </svg>
+                        Key Historical Milestones
+                    </h2>
+
+                    <div class="timeline-track" aria-hidden="true">
+                    </div>
+                </div>
+
+                <div class="timeline-cards">
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Milestones/precolonial.jpg" alt="Colonial Era" />
+                            <!-- <span class="timeline-card__badge">1524</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Pre-Colonial Roots</h3>
+                            <p class="timeline-card__date">Foundation Era</p>
+                            <p class="timeline-card__desc">A rich history of indigenous cultures and communities that laid the early foundations.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Milestones/independencia.jpg" alt="Independence" />
+                            <!-- <span class="timeline-card__badge">1821</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Independence (1821)</h3>
+                            <p class="timeline-card__date">Sovereinty Milestone</p>
+                            <p class="timeline-card__desc">Declaring independence from Spain and establishing a new nation identity.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Milestones/paz.jpg" alt="Civil War" />
+                            <!-- <span class="timeline-card__badge">1980 - 1992</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Peace Accords (1992)</h3>
+                            <p class="timeline-card__date">Conflict Resolution</p>
+                            <p class="timeline-card__desc">The signing of the Chapultepec Peace Accords, ending decades of internal conflict and embracing democracy.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Milestones/moderno.jpg" alt="Modern El Salvador" />
+                            <!-- <span class="timeline-card__badge">Present</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Modern El Salvador (21 st Century)</h3>
+                            <p class="timeline-card__date">Digital Era & Innovation</p>
+                            <p class="timeline-card__desc">Forging new paths through education, technology, and economic transformation for future generations.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; B2DA - 2026</p>
+        </footer>
+    </body>
+    <script src="../../JS/main.js"></script>
+</html>

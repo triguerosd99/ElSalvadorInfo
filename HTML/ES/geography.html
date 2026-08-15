@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Geografía — El Salvador</title>
+        <link rel="stylesheet" href="../../CSS/main.css" />
+        <link rel="stylesheet" href="../../CSS/history.css" />
+        <link rel="icon" type="image/png" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="apple-touch-icon" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar__logo">
+            <a href="geography.html" aria-current="true">
+                <img src="../../IMG/Iconos/el-salvador.png" alt="Español" />
+            </a>
+            <a href="../ENG/geography.html" aria-current="false">
+                <img src="../../IMG/Iconos/reino-unido.png" alt="English" />
+            </a>
+            </div>
+
+            <button type="button" class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+            </button>
+
+            <ul class="navbar__links" id="navLinks">
+            <li><a href="../Index_ES.html" class="navbar__link">Inicio</a></li>
+            <li><a href="history.html" class="navbar__link">Historia</a></li>
+            <li><a href="geography.html" class="navbar__link" aria-current="page">Geografía</a></li>
+            <li><a href="social.html" class="navbar__link">Social</a></li>
+            <li><a href="information.html" class="navbar__link">Información</a></li>
+            <li><a href="milestones.html" class="navbar__link">Hitos</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="page-hero">
+                <div class="page-hero__bg" style="background-image: url('../../IMG/Geography/banner.jpg');"></div>
+                <div class="page-hero__overlay"></div>
+                <div class="page-hero__content">
+                    <h1 class="page-hero__title">Geografía de El Salvador</h1>
+                    <p class="page-hero__subtitle">Un viaje a través de los variados y hermosos paisajes de nuestra tierra.</p>
+                </div>
+            </section>
+
+            <section class="timeline-section">
+                <div class="timeline-header">
+                    <h2 class="card__heading">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 21s7-7.58 7-12a7 7 0 0 0-14 0c0 4.42 7 12 7 12z" />
+                            <circle cx="12" cy="9" r="2.6" />
+                        </svg>
+                        Características geográficas
+                    </h2>
+
+                    <div class="timeline-track" aria-hidden="true">
+                    </div>
+                </div>
+
+                <div class="timeline-cards">
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Geography/volcan.jpg" alt="Colonial Era" />
+                            <!-- <span class="timeline-card__badge">1524</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Volcán de Santa Ana</h3>
+                            <p class="timeline-card__date">Punto más alto</p>
+                            <p class="timeline-card__desc">El volcán activo más alto de El Salvador, conocido por su hermoso lago de cráter de color turquesa.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Geography/costa.jpg" alt="Independence" />
+                            <!-- <span class="timeline-card__badge">1821</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Costa del Pacífico</h3>
+                            <p class="timeline-card__date">Surf & Playas</p>
+                            <p class="timeline-card__desc">Conocido por sus zonas de surf de clase mundial, formaciones rocosas como El Tunco y una vibrante cultura costera.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Geography/lempa.jpg" alt="Civil War" />
+                            <!-- <span class="timeline-card__badge">1980 - 1992</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Cuenca del río Lempa</h3>
+                            <p class="timeline-card__date">Vía fluvial principal</p>
+                            <p class="timeline-card__desc">El río más grande e importante de El Salvador, crucial para la agricultura y la energía hidroeléctrica.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Geography/bosque.jpg" alt="Modern El Salvador" />
+                            <!-- <span class="timeline-card__badge">Present</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Tierras altas & bosques</h3>
+                            <p class="timeline-card__date">Ecosistemas diversos</p>
+                            <p class="timeline-card__desc">El cerro El Pital es la montaña más alta y una reserva de bosque nuboso con flora y fauna únicas.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; B2DA - 2026</p>
+        </footer>
+    </body>
+    <script src="../../JS/main.js"></script>
+</html>

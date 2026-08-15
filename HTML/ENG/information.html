@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Information — El Salvador</title>
+        <link rel="stylesheet" href="../../CSS/main.css" />
+        <link rel="stylesheet" href="../../CSS/history.css" />
+        <link rel="icon" type="image/png" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="apple-touch-icon" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar__logo">
+            <a href="../ES/information.html" aria-current="false">
+                <img src="../../IMG/Iconos/el-salvador.png" alt="Español" />
+            </a>
+            <a href="history.html" aria-current="true">
+                <img src="../../IMG/Iconos/reino-unido.png" alt="English" />
+            </a>
+            </div>
+
+            <button type="button" class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+            </button>
+
+            <ul class="navbar__links" id="navLinks">
+            <li><a href="../../index.html" class="navbar__link">Home</a></li>
+            <li><a href="history.html" class="navbar__link">History</a></li>
+            <li><a href="geography.html" class="navbar__link">Geography</a></li>
+            <li><a href="social.html" class="navbar__link">Social</a></li>
+            <li><a href="information.html" class="navbar__link" aria-current="page">Information</a></li>
+            <li><a href="milestones.html" class="navbar__link">Milestones</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="page-hero">
+                <div class="page-hero__bg" style="background-image: url('../../IMG/GeneralInformation/banner.jpg');"></div>
+                <div class="page-hero__overlay"></div>
+                <div class="page-hero__content">
+                    <h1 class="page-hero__title">General information about El Salvador</h1>
+                    <p class="page-hero__subtitle">A look at our nation identity, symbols, and core facts.</p>
+                </div>
+            </section>
+
+            <section class="timeline-section">
+                <div class="timeline-header">
+                    <h2 class="card__heading">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <line x1="12" y1="11" x2="12" y2="16.5" />
+                            <circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none" />
+                        </svg>
+                        National Facts & Symbols
+                    </h2>
+
+                    <div class="timeline-track" aria-hidden="true">
+                    </div>
+                </div>
+
+                <div class="timeline-cards">
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/GeneralInformation/volcan.jpg" alt="Colonial Era" />
+                            <!-- <span class="timeline-card__badge">1524</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Izalco Volcano & Landscape</h3>
+                            <p class="timeline-card__date">National Land</p>
+                            <p class="timeline-card__desc">A stunning active volcano and natural symbol of our varied volcanic topography.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/GeneralInformation/torogoz.jpg" alt="Independence" />
+                            <!-- <span class="timeline-card__badge">1821</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>National Bird: Torogoz</h3>
+                            <p class="timeline-card__date">Fauna Symbol</p>
+                            <p class="timeline-card__desc">The turquoise-browed motmot, known for its racquet-shaped tail and beautiful plumage.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/GeneralInformation/izote.jpg" alt="Civil War" />
+                            <!-- <span class="timeline-card__badge">1980 - 1992</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>National Flower: Izote</h3>
+                            <p class="timeline-card__date">Flora Symbol</p>
+                            <p class="timeline-card__desc">The blooming Flor de Izote, representing the purity and resilience of the national character.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/GeneralInformation/educacion.jpg" alt="Modern El Salvador" />
+                            <!-- <span class="timeline-card__badge">Present</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Education Investment</h3>
+                            <p class="timeline-card__date">Modern Learning</p>
+                            <p class="timeline-card__desc">Investing in curriculum reform, modern facilities, and digital literacy to empower future generations.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; B2DA - 2026</p>
+        </footer>
+    </body>
+    <script src="../../JS/main.js"></script>
+</html>

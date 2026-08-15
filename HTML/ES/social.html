@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Social — El Salvador</title>
+        <link rel="stylesheet" href="../../CSS/main.css" />
+        <link rel="stylesheet" href="../../CSS/history.css" />
+        <link rel="icon" type="image/png" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="apple-touch-icon" href="../../IMG/Iconos/el-salvador-ventana.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar__logo">
+            <a href="social.html" aria-current="true">
+                <img src="../../IMG/Iconos/el-salvador.png" alt="Español" />
+            </a>
+            <a href="../ENG/social.html" aria-current="false">
+                <img src="../../IMG/Iconos/reino-unido.png" alt="English" />
+            </a>
+            </div>
+
+            <button type="button" class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+            </button>
+
+            <ul class="navbar__links" id="navLinks">
+            <li><a href="../Index_ES.html" class="navbar__link">Inicio</a></li>
+            <li><a href="history.html" class="navbar__link">Historia</a></li>
+            <li><a href="geography.html" class="navbar__link">Geografía</a></li>
+            <li><a href="social.html" class="navbar__link" aria-current="page">Social</a></li>
+            <li><a href="information.html" class="navbar__link">Información</a></li>
+            <li><a href="milestones.html" class="navbar__link">Hitos</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="page-hero">
+                <div class="page-hero__bg" style="background-image: url('../../IMG/Social/banner.jpg');"></div>
+                <div class="page-hero__overlay"></div>
+                <div class="page-hero__content">
+                    <h1 class="page-hero__title">Desarrollo social y económico de El Salvador</h1>
+                    <p class="page-hero__subtitle">Un recorrido por el crecimiento, los desafíos y el progreso de nuestra comunidad.</p>
+                </div>
+            </section>
+
+            <section class="timeline-section">
+                <div class="timeline-header">
+                    <h2 class="card__heading">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <line x1="12" y1="11" x2="12" y2="16.5" />
+                            <circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none" />
+                        </svg>
+                        Métricas sociales clave
+                    </h2>
+
+                    <div class="timeline-track" aria-hidden="true">
+                    </div>
+                </div>
+
+                <div class="timeline-cards">
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Social/educacion.jpg" alt="Colonial Era" />
+                            <!-- <span class="timeline-card__badge">1524</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Inversión en educación</h3>
+                            <p class="timeline-card__date">Aprendizaje moderno</p>
+                            <p class="timeline-card__desc">Invertir en la reforma curricular, en instalaciones modernas y en alfabetización digital para empoderar a las futuras generaciones.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Social/comunidad.jpg" alt="Independence" />
+                            <!-- <span class="timeline-card__badge">1821</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Empoderar a las comunidades</h3>
+                            <p class="timeline-card__date">Economía local</p>
+                            <p class="timeline-card__desc">Apoyo a las pequeñas empresas, la artesanía local y el emprendimiento en zonas rurales para un crecimiento inclusivo.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Social/economia.jpg" alt="Civil War" />
+                            <!-- <span class="timeline-card__badge">1980 - 1992</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Economía sostenible</h3>
+                            <p class="timeline-card__date">Comercio mundial</p>
+                            <p class="timeline-card__desc">Diversificar las exportaciones, atraer inversión extranjera directa y construir infraestructura resiliente.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-card__image-wrap">
+                            <img src="../../IMG/Social/inclusion.jpg" alt="Modern El Salvador" />
+                            <!-- <span class="timeline-card__badge">Present</span> -->
+                        </div>
+                        <div class="timeline-card__body">
+                            <h3>Inclusión social</h3>
+                            <p class="timeline-card__date">Construcción de comunidad</p>
+                            <p class="timeline-card__desc">Trabajando por un acceso equitativo a la atención médica, los servicios sociales y las oportunidades para todos los salvadoreños.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; B2DA - 2026</p>
+        </footer>
+    </body>
+    <script src="../../JS/main.js"></script>
+</html>
